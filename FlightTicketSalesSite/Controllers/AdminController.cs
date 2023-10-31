@@ -28,6 +28,7 @@ namespace FlightTicketSalesSite.Controllers
             _userManager = userManager;
             _signInManager = signInManager;
             _roleManager = roleManager;
+
         }
 
         #region RoleActions
