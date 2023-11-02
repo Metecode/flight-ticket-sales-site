@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace FlightTicketSalesSite.Entity
 {
-    public class Bus
+    public class Airplane
     {
-        public int BusId { get; set; }
+        public int AirplaneId { get; set; }
         public int SeatCapacity { get; set; }
         public List<Ticket> Tickets { get; set; }
         public List<Trip> Trips { get; set; }

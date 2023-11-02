@@ -1,0 +1,11 @@
+C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite.Core\bin\Debug\net6.0\FlightTicketSalesSite.Core.deps.json
+C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite.Core\bin\Debug\net6.0\FlightTicketSalesSite.Core.dll
+C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite.Core\bin\Debug\net6.0\FlightTicketSalesSite.Core.pdb
+C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite.Core\obj\Debug\net6.0\FlightTicketSalesSite.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite.Core\obj\Debug\net6.0\FlightTicketSalesSite.Core.AssemblyInfoInputs.cache
+C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite.Core\obj\Debug\net6.0\FlightTicketSalesSite.Core.AssemblyInfo.cs
+C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite.Core\obj\Debug\net6.0\FlightTicketSalesSite.Core.csproj.CoreCompileInputs.cache
+C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite.Core\obj\Debug\net6.0\FlightTicketSalesSite.Core.dll
+C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite.Core\obj\Debug\net6.0\refint\FlightTicketSalesSite.Core.dll
+C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite.Core\obj\Debug\net6.0\FlightTicketSalesSite.Core.pdb
+C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite.Core\obj\Debug\net6.0\ref\FlightTicketSalesSite.Core.dll

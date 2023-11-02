@@ -22,7 +22,7 @@ namespace FlightTicketSalesSite.Entity
         public decimal Price { get; set; }
         //public City City { get; set; }
         public List<Ticket> Tickets { get; set; }
-        public Bus Bus { get; set; }
-        public int BusId { get; set; }
+        public Airplane Airplane { get; set; }
+        public int AirplaneId { get; set; }
     }
 }

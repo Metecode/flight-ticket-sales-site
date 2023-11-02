@@ -3992,6 +3992,31 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "FlightTicketSalesSite.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "FlightTicketSalesSite.Entity": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.22",
+          "Microsoft.EntityFrameworkCore.Sqlite": "6.0.22"
+        },
+        "compile": {
+          "bin/placeholder/FlightTicketSalesSite.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FlightTicketSalesSite.Data.dll": {}
+        }
+      },
+      "FlightTicketSalesSite.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/FlightTicketSalesSite.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FlightTicketSalesSite.Entity.dll": {}
+        }
       }
     }
   },
@@ -10896,10 +10921,21 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "FlightTicketSalesSite.Data/1.0.0": {
+      "type": "project",
+      "path": "../FlightTicketSalesSite.Data/FlightTicketSalesSite.Data.csproj",
+      "msbuildProject": "../FlightTicketSalesSite.Data/FlightTicketSalesSite.Data.csproj"
+    },
+    "FlightTicketSalesSite.Entity/1.0.0": {
+      "type": "project",
+      "path": "../FlightTicketSalesSite.Entity/FlightTicketSalesSite.Entity.csproj",
+      "msbuildProject": "../FlightTicketSalesSite.Entity/FlightTicketSalesSite.Entity.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "FlightTicketSalesSite.Data >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.22",
       "Microsoft.EntityFrameworkCore >= 6.0.22",
       "Microsoft.EntityFrameworkCore.Sqlite >= 6.0.22",
@@ -10939,7 +10975,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Mete\\source\\repos\\FlightTicketSalesSite\\FlightTicketSalesSite.Data\\FlightTicketSalesSite.Data.csproj": {
+              "projectPath": "C:\\Users\\Mete\\source\\repos\\FlightTicketSalesSite\\FlightTicketSalesSite.Data\\FlightTicketSalesSite.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

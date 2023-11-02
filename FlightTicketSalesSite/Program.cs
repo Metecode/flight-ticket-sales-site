@@ -1,4 +1,6 @@
+using FlightTicketSalesSite.Data.Concrete;
 using FlightTicketSalesSite.Identity;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -9,6 +11,8 @@ builder.Services.AddDbContext<MyIdentityContext>(options => options.UseSqlite(bu
 
 
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<AirplaneContext>(options => options.UseSqlite(builder.Configuration.GetConnectionString("SqliteConnection")));
 
 var app = builder.Build();
 
