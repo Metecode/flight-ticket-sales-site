@@ -4017,6 +4017,20 @@
         "runtime": {
           "bin/placeholder/FlightTicketSalesSite.Entity.dll": {}
         }
+      },
+      "FlightTicketSalesSite.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "FlightTicketSalesSite.Data": "1.0.0",
+          "FlightTicketSalesSite.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FlightTicketSalesSite.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FlightTicketSalesSite.Service.dll": {}
+        }
       }
     }
   },
@@ -10931,11 +10945,17 @@
       "type": "project",
       "path": "../FlightTicketSalesSite.Entity/FlightTicketSalesSite.Entity.csproj",
       "msbuildProject": "../FlightTicketSalesSite.Entity/FlightTicketSalesSite.Entity.csproj"
+    },
+    "FlightTicketSalesSite.Service/1.0.0": {
+      "type": "project",
+      "path": "../FlightTicketSalesSite.Service/FlightTicketSalesSite.Service.csproj",
+      "msbuildProject": "../FlightTicketSalesSite.Service/FlightTicketSalesSite.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "FlightTicketSalesSite.Data >= 1.0.0",
+      "FlightTicketSalesSite.Service >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.22",
       "Microsoft.EntityFrameworkCore >= 6.0.22",
       "Microsoft.EntityFrameworkCore.Sqlite >= 6.0.22",
@@ -10978,6 +10998,9 @@
           "projectReferences": {
             "C:\\Users\\Mete\\source\\repos\\FlightTicketSalesSite\\FlightTicketSalesSite.Data\\FlightTicketSalesSite.Data.csproj": {
               "projectPath": "C:\\Users\\Mete\\source\\repos\\FlightTicketSalesSite\\FlightTicketSalesSite.Data\\FlightTicketSalesSite.Data.csproj"
+            },
+            "C:\\Users\\Mete\\source\\repos\\FlightTicketSalesSite\\FlightTicketSalesSite.Service\\FlightTicketSalesSite.Service.csproj": {
+              "projectPath": "C:\\Users\\Mete\\source\\repos\\FlightTicketSalesSite\\FlightTicketSalesSite.Service\\FlightTicketSalesSite.Service.csproj"
             }
           }
         }
