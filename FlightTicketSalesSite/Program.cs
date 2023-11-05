@@ -19,7 +19,10 @@ builder.Services.AddDbContext<AirplaneContext>(options => options.UseSqlite(buil
 
 builder.Services.AddScoped<IAirplaneRepository, EfCoreAirplaneRepository>();
 builder.Services.AddScoped<ICityService, CityManager>();
-
+builder.Services.AddScoped<IAirplaneService, AirplaneManager>();
+builder.Services.AddScoped<IPassengerService, PassengerManager>();
+builder.Services.AddScoped<ITicketService, TicketManager>();
+builder.Services.AddScoped<ITripService, TripManager>();
 
 var app = builder.Build();
 
