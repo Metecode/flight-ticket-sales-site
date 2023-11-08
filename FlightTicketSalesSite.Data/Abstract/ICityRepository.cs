@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace FlightTicketSalesSite.Data.Abstract
 {
-    internal interface ICityRepository
+    public interface ICityRepository
     {
+        Task CreateAsync(City city);
         Task<List<City>> GellAllCitiesAsync(int id);
     }
 }

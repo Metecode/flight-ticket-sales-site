@@ -1,9 +1,9 @@
-﻿@model List<Bus>
+﻿@model List<Airplane>
 
-<h1 class="display-5 text-dark">Bus List</h1>
+<h1 class="display-5 text-dark">Airplane List</h1>
 <hr />
 <div>
-    <a class="btn btn-sm btn-create" asp-controller="Admin" asp-action="BusCreate">Create Bus</a>
+    <a class="btn btn-sm btn-create" asp-controller="Admin" asp-action="AirplaneCreate">Create Airplane</a>
     @* @if (Model.Count > 0)
     {
     @if (ViewBag.IsDeleted)
@@ -35,21 +35,21 @@
             </tr>
         </thead>
         <tbody>
-            @foreach (var bus in Model)
+            @foreach (var airplane in Model)
             {
                 <tr>
 
-                    <td>@bus.BusId</td>
-                    <td>@bus.SeatCapacity</td>                    
+                    <td>@airplane.AirplaneId</td>
+                    <td>@airplane.SeatCapacity</td>                    
                     <td>
                         <a asp-controller="Admin"
-                   asp-action="BusEdit"
-                   asp-route-id=@bus.BusId
+                   asp-action="AirplaneEdit"
+                   asp-route-id=@airplane.AirplaneId
                    class="btn btn-sm btn-edit">Edit</a>
-                        <button type="button" class="btn btn-sm btn-continue fw-bold btn-delete" data-bs-toggle="modal" data-bs-target="#DeleteModal_@bus.BusId">
+                        <button type="button" class="btn btn-sm btn-continue fw-bold btn-delete" data-bs-toggle="modal" data-bs-target="#DeleteModal_@airplane.AirplaneId">
                             Delete
                         </button>
-                        <div class="modal fade" id="DeleteModal_@bus.BusId" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal fade" id="DeleteModal_@airplane.AirplaneId" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
@@ -57,14 +57,14 @@
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        <p class="text-danger">This bus will be deleted!</p>
+                                        <p class="text-danger">This airplane will be deleted!</p>
                                         <p>Are you sure?</p>
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
                                         <a asp-controller="Admin"
-                                   asp-action="BusDelete"
-                                   asp-route-id=@bus.BusId
+                                   asp-action="AirplaneDelete"
+                                   asp-route-id=@airplane.AirplaneId
                                    class="btn btn-danger">Yes</a>
                                     </div>
                                 </div>

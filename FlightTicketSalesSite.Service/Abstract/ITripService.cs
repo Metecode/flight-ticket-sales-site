@@ -17,7 +17,7 @@ namespace FlightTicketSalesSite.Service.Abstract
         Task<List<Trip>> GetTripsAsync(int fromWhereId, int toWhereId, DateTime tripDate);
         int GetTrips(int tripId);
         public Task<Trip> GetSeatCapacity(int id);
-        Task<Trip> GetBusInfo(int id);
+        Task<Trip> GetAirplaneInfo(int id);
         Task<Trip> GetTripById(int id);
         int GetSeats(int id);
         decimal GetPrice(int id);

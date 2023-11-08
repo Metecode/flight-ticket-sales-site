@@ -7,10 +7,15 @@ using System.Threading.Tasks;
 
 namespace FlightTicketSalesSite.Data.Abstract
 {
-    internal interface ITicketRepository
+    public interface ITicketRepository
     {
         Task<Ticket> GetTicketDetails(int id);
         Task<Ticket> GetTicketByTrip(int id);
         List<int> GetReservedSeat(int id);
+        Task CreateAsync(Ticket ticket);
+        void Delete(Ticket ticket);
+        Task<List<Ticket>> GetAllAsync();
+        Task<Ticket> GetByIdAsync(int id);
+        void Update(Ticket ticket);
     }
 }

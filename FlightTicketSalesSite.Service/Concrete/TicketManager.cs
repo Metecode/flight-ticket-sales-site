@@ -1,4 +1,6 @@
-﻿using FlightTicketSalesSite.Entity;
+﻿using FlightTicketSalesSite.Service.Abstract;
+using FlightTicketSalesSite.Data.Abstract;
+using FlightTicketSalesSite.Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;

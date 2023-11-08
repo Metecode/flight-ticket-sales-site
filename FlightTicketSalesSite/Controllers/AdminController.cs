@@ -514,7 +514,6 @@ namespace FlightTicketSalesSite.Controllers
                 }
                 city.CityName = cityModel.CityName;
 
-
                 _cityService.Update(city);
                 return RedirectToAction("CityList");
             }

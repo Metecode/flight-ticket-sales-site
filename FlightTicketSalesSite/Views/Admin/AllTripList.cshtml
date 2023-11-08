@@ -18,7 +18,7 @@
                 <th scope="col">Trip Date</th>
                 <th scope="col">Trip Time</th>
                 <th scope="col">Price</th>
-                <th scope="col">BusId</th>
+                <th scope="col">AirplaneId</th>
                 <th scope="col">Actions</th>
             </tr>
         </thead>
@@ -33,7 +33,7 @@
                     <td>@trip.TripDate.ToString("d")</td>
                     <td>@trip.TripTime.ToString("t")</td>
                     <td>@trip.Price ₺</td>
-                    <td>@trip.BusId</td>
+                    <td>@trip.AirplaneId</td>
                     <td>
                         <a  asp-controller="Admin"
                    asp-action="TripEdit"

@@ -9,7 +9,7 @@ using FlightTicketSalesSite.Entity;
 
 namespace FlightTicketSalesSite.Service.Concrete
 {
-    public class AirplaneManager
+    public class AirplaneManager : IAirplaneService
     {
         private IAirplaneRepository _airplaneRepository;
 
