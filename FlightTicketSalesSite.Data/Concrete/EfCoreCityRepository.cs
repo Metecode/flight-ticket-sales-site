@@ -1,15 +1,16 @@
 ﻿using FlightTicketSalesSite.Data.Abstract;
 using FlightTicketSalesSite.Entity;
+using FlightTicketSalesSite.Data.Concrete;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
 
-namespace FlightTicketSalesSite.Data.Concrete
+namespace BusTicketReservation.Data.Concrete.EfCore
 {
-    internal class EfCoreCityRepository : EfCoreGenericRepository<City>, ICityRepository
+    public class EfCoreCityRepository : EfCoreGenericRepository<City>, ICityRepository
     {
         public EfCoreCityRepository(AirplaneContext _dbContext) : base(_dbContext)
         {

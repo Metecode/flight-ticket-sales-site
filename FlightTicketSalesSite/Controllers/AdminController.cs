@@ -6,6 +6,7 @@ using System.Net.Sockets;
 using FlightTicketSalesSite.Entity;
 using FlightTicketSalesSite.Service.Abstract;
 using Microsoft.EntityFrameworkCore;
+using FlightTicketSalesSite.Core;
 
 namespace FlightTicketSalesSite.Controllers
 {

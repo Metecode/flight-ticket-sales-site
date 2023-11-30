@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -34,6 +35,11 @@ namespace FlightTicketSalesSite.Data.Concrete
         {
             _dbContext.Remove(entity);
             _dbContext.SaveChanges();
+        }
+
+        public Task<List<City>> GellAllCitiesAsync(int id)
+        {
+            throw new NotImplementedException();
         }
 
         public async Task<List<TEntity>> GetAllAsync()

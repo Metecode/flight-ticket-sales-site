@@ -20,6 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\FlightTicketSalesSite.Core\FlightTicketSalesSite.Core.csproj" />
     <ProjectReference Include="..\FlightTicketSalesSite.Data\FlightTicketSalesSite.Data.csproj" />
     <ProjectReference Include="..\FlightTicketSalesSite.Service\FlightTicketSalesSite.Service.csproj" />
   </ItemGroup>

@@ -9,3 +9,9 @@ C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite.Service\o
 C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite.Service\obj\Debug\net6.0\refint\FlightTicketSalesSite.Service.dll
 C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite.Service\obj\Debug\net6.0\FlightTicketSalesSite.Service.pdb
 C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite.Service\obj\Debug\net6.0\ref\FlightTicketSalesSite.Service.dll
+C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite.Service\obj\Debug\net6.0\FlightTicketSalesSite.Service.csproj.AssemblyReference.cache
+C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite.Service\bin\Debug\net6.0\FlightTicketSalesSite.Data.dll
+C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite.Service\bin\Debug\net6.0\FlightTicketSalesSite.Entity.dll
+C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite.Service\bin\Debug\net6.0\FlightTicketSalesSite.Data.pdb
+C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite.Service\bin\Debug\net6.0\FlightTicketSalesSite.Entity.pdb
+C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite.Service\obj\Debug\net6.0\FlightTicketSalesSite.Service.csproj.CopyComplete

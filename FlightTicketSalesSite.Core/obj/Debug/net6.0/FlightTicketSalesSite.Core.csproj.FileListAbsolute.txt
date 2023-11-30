@@ -9,3 +9,4 @@ C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite.Core\obj\
 C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite.Core\obj\Debug\net6.0\refint\FlightTicketSalesSite.Core.dll
 C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite.Core\obj\Debug\net6.0\FlightTicketSalesSite.Core.pdb
 C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite.Core\obj\Debug\net6.0\ref\FlightTicketSalesSite.Core.dll
+C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite.Core\obj\Debug\net6.0\FlightTicketSalesSite.Core.csproj.AssemblyReference.cache

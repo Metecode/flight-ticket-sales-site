@@ -267,3 +267,8 @@ C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite\bin\Debug
 C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite\bin\Debug\net6.0\FlightTicketSalesSite.Entity.dll
 C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite\bin\Debug\net6.0\FlightTicketSalesSite.Data.pdb
 C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite\bin\Debug\net6.0\FlightTicketSalesSite.Entity.pdb
+C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite\bin\Debug\net6.0\Iyzipay.dll
+C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite\bin\Debug\net6.0\FlightTicketSalesSite.Core.dll
+C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite\bin\Debug\net6.0\FlightTicketSalesSite.Service.dll
+C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite\bin\Debug\net6.0\FlightTicketSalesSite.Core.pdb
+C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite\bin\Debug\net6.0\FlightTicketSalesSite.Service.pdb

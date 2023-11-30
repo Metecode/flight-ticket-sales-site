@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "871UfFohq9ttsZOrFbSVgFcIN+syiyoX81Izk1eW3K4=",
+  "Hash": "UZclXV6ywLRfZQmohTYxqDRDDb9S/YdbNkYPIe5hP/Q=",
   "Source": "FlightTicketSalesSite",
   "BasePath": "_content/FlightTicketSalesSite",
   "Mode": "Default",
@@ -799,6 +799,23 @@
       "OriginalItemSpec": "C:\\Users\\Mete\\source\\repos\\FlightTicketSalesSite\\FlightTicketSalesSite\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\FlightTicketSalesSite.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\Mete\\source\\repos\\FlightTicketSalesSite\\FlightTicketSalesSite\\wwwroot\\css\\SeatSelect.css",
+      "SourceId": "FlightTicketSalesSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mete\\source\\repos\\FlightTicketSalesSite\\FlightTicketSalesSite\\wwwroot\\",
+      "BasePath": "_content/FlightTicketSalesSite",
+      "RelativePath": "css/SeatSelect.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\SeatSelect.css"
+    },
+    {
       "Identity": "C:\\Users\\Mete\\source\\repos\\FlightTicketSalesSite\\FlightTicketSalesSite\\wwwroot\\css\\site.css",
       "SourceId": "FlightTicketSalesSite",
       "SourceType": "Discovered",
@@ -831,6 +848,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Mete\\source\\repos\\FlightTicketSalesSite\\FlightTicketSalesSite\\wwwroot\\images\\logo.jpeg",
+      "SourceId": "FlightTicketSalesSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mete\\source\\repos\\FlightTicketSalesSite\\FlightTicketSalesSite\\wwwroot\\",
+      "BasePath": "_content/FlightTicketSalesSite",
+      "RelativePath": "images/logo.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logo.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Mete\\source\\repos\\FlightTicketSalesSite\\FlightTicketSalesSite\\wwwroot\\images\\logo1.png",
+      "SourceId": "FlightTicketSalesSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mete\\source\\repos\\FlightTicketSalesSite\\FlightTicketSalesSite\\wwwroot\\",
+      "BasePath": "_content/FlightTicketSalesSite",
+      "RelativePath": "images/logo1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logo1.png"
     },
     {
       "Identity": "C:\\Users\\Mete\\source\\repos\\FlightTicketSalesSite\\FlightTicketSalesSite\\wwwroot\\js\\site.js",

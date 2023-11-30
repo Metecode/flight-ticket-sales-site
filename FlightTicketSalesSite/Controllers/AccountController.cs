@@ -1,4 +1,5 @@
-﻿using FlightTicketSalesSite.Identity;
+﻿using FlightTicketSalesSite.Core;
+using FlightTicketSalesSite.Identity;
 using FlightTicketSalesSite.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;

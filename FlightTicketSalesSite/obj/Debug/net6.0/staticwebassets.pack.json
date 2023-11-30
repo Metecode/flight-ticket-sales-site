@@ -181,12 +181,24 @@
       "PackagePath": "staticwebassets\\FlightTicketSalesSite.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Mete\\source\\repos\\FlightTicketSalesSite\\FlightTicketSalesSite\\wwwroot\\css\\SeatSelect.css",
+      "PackagePath": "staticwebassets\\css\\SeatSelect.css"
+    },
+    {
       "Id": "C:\\Users\\Mete\\source\\repos\\FlightTicketSalesSite\\FlightTicketSalesSite\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\Mete\\source\\repos\\FlightTicketSalesSite\\FlightTicketSalesSite\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Mete\\source\\repos\\FlightTicketSalesSite\\FlightTicketSalesSite\\wwwroot\\images\\logo.jpeg",
+      "PackagePath": "staticwebassets\\images\\logo.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Mete\\source\\repos\\FlightTicketSalesSite\\FlightTicketSalesSite\\wwwroot\\images\\logo1.png",
+      "PackagePath": "staticwebassets\\images\\logo1.png"
     },
     {
       "Id": "C:\\Users\\Mete\\source\\repos\\FlightTicketSalesSite\\FlightTicketSalesSite\\wwwroot\\js\\site.js",

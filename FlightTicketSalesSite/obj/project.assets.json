@@ -4005,6 +4005,19 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+      "FlightTicketSalesSite.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "bin/placeholder/FlightTicketSalesSite.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FlightTicketSalesSite.Core.dll": {}
+        }
+      },
       "FlightTicketSalesSite.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -10964,6 +10977,11 @@
         "system.xml.xdocument.nuspec"
       ]
     },
+    "FlightTicketSalesSite.Core/1.0.0": {
+      "type": "project",
+      "path": "../FlightTicketSalesSite.Core/FlightTicketSalesSite.Core.csproj",
+      "msbuildProject": "../FlightTicketSalesSite.Core/FlightTicketSalesSite.Core.csproj"
+    },
     "FlightTicketSalesSite.Data/1.0.0": {
       "type": "project",
       "path": "../FlightTicketSalesSite.Data/FlightTicketSalesSite.Data.csproj",
@@ -10982,6 +11000,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "FlightTicketSalesSite.Core >= 1.0.0",
       "FlightTicketSalesSite.Data >= 1.0.0",
       "FlightTicketSalesSite.Service >= 1.0.0",
       "Iyzipay >= 2.1.55",
@@ -11025,6 +11044,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Users\\Mete\\source\\repos\\FlightTicketSalesSite\\FlightTicketSalesSite.Core\\FlightTicketSalesSite.Core.csproj": {
+              "projectPath": "C:\\Users\\Mete\\source\\repos\\FlightTicketSalesSite\\FlightTicketSalesSite.Core\\FlightTicketSalesSite.Core.csproj"
+            },
             "C:\\Users\\Mete\\source\\repos\\FlightTicketSalesSite\\FlightTicketSalesSite.Data\\FlightTicketSalesSite.Data.csproj": {
               "projectPath": "C:\\Users\\Mete\\source\\repos\\FlightTicketSalesSite\\FlightTicketSalesSite.Data\\FlightTicketSalesSite.Data.csproj"
             },
