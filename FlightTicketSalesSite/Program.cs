@@ -6,7 +6,6 @@ using FlightTicketSalesSite.Identity;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using BusTicketReservation.Data.Concrete.EfCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -44,7 +43,7 @@ builder.Services.ConfigureApplicationCookie(options =>
     options.Cookie = new CookieBuilder
     {
         HttpOnly = true,
-        Name = ".BusTicketReservation.Security.Cookie"
+        Name = ".FlightTicketSalesSite.Security.Cookie"
     };
 
 });

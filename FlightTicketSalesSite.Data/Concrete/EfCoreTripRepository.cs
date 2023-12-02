@@ -43,8 +43,9 @@ namespace FlightTicketSalesSite.Data.Concrete
                 .Trips
                 .Where(t => t.TripId == id)
                 .Include(t => t.Tickets)
-                .Include(t => t.Airplane)
+                .Include(t => t.Bus)
                 .FirstOrDefaultAsync();
+        }      .FirstOrDefaultAsync();
         }
 
         public int GetSeats(int id)

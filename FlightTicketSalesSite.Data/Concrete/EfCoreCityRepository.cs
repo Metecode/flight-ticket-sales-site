@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BusTicketReservation.Data.Concrete.EfCore
+namespace FlightTicketSalesSite.Data.Concrete
 {
     public class EfCoreCityRepository : EfCoreGenericRepository<City>, ICityRepository
     {

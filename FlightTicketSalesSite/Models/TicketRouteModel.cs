@@ -5,7 +5,7 @@ namespace FlightTicketSalesSite.Models
 {
     public class TicketRouteModel
     {
-        public List<City> Cities { get; set; }
+        public List<City>? Cities { get; set; }
         [Required(ErrorMessage = "Please Select Departure City.")]
 
         public int FromWhereId { get; set; }

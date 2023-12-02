@@ -43,7 +43,7 @@ namespace FlightTicketSalesSite.Controllers
             return View(registerModel);
         }
 
-        public IActionResult Login(string ReturnUrl = null)
+        public  IActionResult Login(string? ReturnUrl = null)
         {
             ViewBag.ReturnUrl = ReturnUrl;
             return View();
@@ -74,7 +74,7 @@ namespace FlightTicketSalesSite.Controllers
                     }
                 }
             }
-
+            
             return View(loginModel);
         }
         public async Task<IActionResult> Logout()
