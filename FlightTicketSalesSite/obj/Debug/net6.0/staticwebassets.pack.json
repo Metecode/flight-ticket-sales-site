@@ -193,6 +193,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Mete\\source\\repos\\FlightTicketSalesSite\\FlightTicketSalesSite\\wwwroot\\images\\barkod.png",
+      "PackagePath": "staticwebassets\\images\\barkod.png"
+    },
+    {
       "Id": "C:\\Users\\Mete\\source\\repos\\FlightTicketSalesSite\\FlightTicketSalesSite\\wwwroot\\images\\logo.jpeg",
       "PackagePath": "staticwebassets\\images\\logo.jpeg"
     },

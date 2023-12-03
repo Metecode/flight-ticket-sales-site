@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UZclXV6ywLRfZQmohTYxqDRDDb9S/YdbNkYPIe5hP/Q=",
+  "Hash": "VyhjyLjTf9p83FwZ/haCKUixp3Sly4sq6lZPGN9jgq0=",
   "Source": "FlightTicketSalesSite",
   "BasePath": "_content/FlightTicketSalesSite",
   "Mode": "Default",
@@ -848,6 +848,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Mete\\source\\repos\\FlightTicketSalesSite\\FlightTicketSalesSite\\wwwroot\\images\\barkod.png",
+      "SourceId": "FlightTicketSalesSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mete\\source\\repos\\FlightTicketSalesSite\\FlightTicketSalesSite\\wwwroot\\",
+      "BasePath": "_content/FlightTicketSalesSite",
+      "RelativePath": "images/barkod.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\barkod.png"
     },
     {
       "Identity": "C:\\Users\\Mete\\source\\repos\\FlightTicketSalesSite\\FlightTicketSalesSite\\wwwroot\\images\\logo.jpeg",
