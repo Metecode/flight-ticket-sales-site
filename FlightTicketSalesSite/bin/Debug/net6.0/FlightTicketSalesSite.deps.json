@@ -21,6 +21,14 @@
         },
         "runtime": {
           "FlightTicketSalesSite.dll": {}
+        },
+        "resources": {
+          "en-US/FlightTicketSalesSite.resources.dll": {
+            "locale": "en-US"
+          },
+          "tr-TR/FlightTicketSalesSite.resources.dll": {
+            "locale": "tr-TR"
+          }
         }
       },
       "bootstrap/5.3.2": {},

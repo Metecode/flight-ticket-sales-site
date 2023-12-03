@@ -272,3 +272,10 @@ C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite\bin\Debug
 C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite\bin\Debug\net6.0\FlightTicketSalesSite.Service.dll
 C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite\bin\Debug\net6.0\FlightTicketSalesSite.Core.pdb
 C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite\bin\Debug\net6.0\FlightTicketSalesSite.Service.pdb
+C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite\bin\Debug\net6.0\en-US\FlightTicketSalesSite.resources.dll
+C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite\bin\Debug\net6.0\tr-TR\FlightTicketSalesSite.resources.dll
+C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite\obj\Debug\net6.0\FlightTicketSalesSite.csproj.GenerateResource.cache
+C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite\obj\Debug\net6.0\en-US\FlightTicketSalesSite.resources.dll
+C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite\obj\Debug\net6.0\tr-TR\FlightTicketSalesSite.resources.dll
+C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite\obj\Debug\net6.0\FlightTicketSalesSite.Resources.SharedResource.en-US.resources
+C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite\obj\Debug\net6.0\FlightTicketSalesSite.Resources.SharedResource.tr-TR.resources

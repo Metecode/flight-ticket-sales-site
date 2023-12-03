@@ -2,9 +2,11 @@
 using FlightTicketSalesSite.Entity;
 using FlightTicketSalesSite.Models;
 using FlightTicketSalesSite.Service.Abstract;
+using FlightTicketSalesSite.Services;
 using Iyzipay;
 using Iyzipay.Model;
 using Iyzipay.Request;
+using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -17,18 +19,21 @@ namespace FlightTicketSalesSite.Controllers
         private readonly IAirplaneService _airplaneService;
         private readonly ITripService _tripService;
         private readonly IPassengerService _passengerService;
-
-        public HomeController(ICityService cityService, ITicketService ticketService, IAirplaneService airplaneService, ITripService tripService, IPassengerService passengerService)
+        private LanguageService _localization;
+        public HomeController(ICityService cityService, ITicketService ticketService, IAirplaneService airplaneService, ITripService tripService, IPassengerService passengerService, LanguageService localization)
         {
             _cityService = cityService;
             _ticketService = ticketService;
             _airplaneService = airplaneService;
             _tripService = tripService;
             _passengerService = passengerService;
+            _localization = localization;
         }
 
         public async Task<IActionResult> Index()
         {
+            ViewBag.Welcome = _localization.Getkey("Welcome").Value;
+            var currentCulture = Thread.CurrentThread.CurrentCulture.Name;
             if (ModelState.IsValid)
             {
                 var result = await _cityService.GetAllAsync();
@@ -42,6 +47,16 @@ namespace FlightTicketSalesSite.Controllers
             }
             return View();
 
+        }
+
+        public IActionResult ChangeLanguage(string culture)
+        {
+            Response.Cookies.Append(CookieRequestCultureProvider.DefaultCookieName,
+                CookieRequestCultureProvider.MakeCookieValue(new RequestCulture(culture)), new CookieOptions()
+                {
+                    Expires = DateTimeOffset.UtcNow.AddYears(1)
+                });
+            return Redirect(Request.Headers["Referer"].ToString());
         }
 
         public async Task<IActionResult> TripList(TicketRouteModel ticketRouteModel)
