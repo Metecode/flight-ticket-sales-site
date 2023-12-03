@@ -1,5 +1,4 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.Net.Sockets;
 using FlightTicketSalesSite.Entity;
 
 namespace FlightTicketSalesSite.Models
@@ -7,39 +6,39 @@ namespace FlightTicketSalesSite.Models
     public class TicketReservationModel
     {
         [Required(ErrorMessage = "First Name is required.")]
-        public string FirstName { get; set; }
+        public string? FirstName { get; set; }
         [Required(ErrorMessage = "Last Name is required.")]
-        public string LastName { get; set; }
+        public string? LastName { get; set; }
         [Required(ErrorMessage = "Phone Number is required.")]
-        public string PhoneNumber { get; set; }
+        public string? PhoneNumber { get; set; }
         [Required(ErrorMessage = "Email is required.")]
-        public string Email { get; set; }
+        public string? Email { get; set; }
         public decimal Price { get; set; }
-        public Trip Trip { get; set; }
-        public Airplane Airplane { get; set; }
+        public Trip? Trip { get; set; }
+        public Airplane? Airplane { get; set; }
         public int AirplaneId { get; set; }
         public int TripId { get; set; }
-        public City FromWhere { get; set; }
-        public City ToWhere { get; set; }
-        public List<City> Cities { get; set; }
+        public City? FromWhere { get; set; }
+        public City? ToWhere { get; set; }
+        public List<City>? Cities { get; set; }
         [Required(ErrorMessage = "Card Number  is required.")]
 
-        public string CardNumber { get; set; }
+        public string? CardNumber { get; set; }
         [Required(ErrorMessage = "Card Holder Name  is required.")]
 
-        public string CardHolderName { get; set; }
+        public string? CardHolderName { get; set; }
         [Required(ErrorMessage = "Identity Number  is required.")]
 
-        public string IdentityNumber { get; set; }
+        public string? IdentityNumber { get; set; }
         [Required(ErrorMessage = "Expire Month  is required.")]
 
-        public string ExpireMonth { get; set; }
+        public string? ExpireMonth { get; set; }
         [Required(ErrorMessage = "Expire Year  is required.")]
 
-        public string ExpireYear { get; set; }
+        public string? ExpireYear { get; set; }
         [Required(ErrorMessage = "Cvc  is required.")]
 
-        public string Cvc { get; set; }
+        public string? Cvc { get; set; }
         public int FromWhereId { get; set; }
         public DateTime TripDate { get; set; }
         public DateTime TripTime { get; set; }
@@ -48,6 +47,6 @@ namespace FlightTicketSalesSite.Models
         [Required(ErrorMessage = "Please select seat.")]
 
         public int SeatNo { get; set; }
-        public Ticket Ticket { get; set; }
+        public Ticket? Ticket { get; set; }
     }
 }

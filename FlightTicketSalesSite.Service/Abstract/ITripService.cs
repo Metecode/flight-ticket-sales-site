@@ -21,6 +21,5 @@ namespace FlightTicketSalesSite.Service.Abstract
         Task<Trip> GetTripById(int id);
         int GetSeats(int id);
         decimal GetPrice(int id);
-
     }
 }

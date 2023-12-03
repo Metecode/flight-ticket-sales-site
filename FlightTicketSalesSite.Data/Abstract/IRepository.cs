@@ -10,10 +10,11 @@ namespace FlightTicketSalesSite.Data.Abstract
     public interface IRepository<TEntity>
     {
         Task CreateAsync(TEntity entity);
-        void Delete(TEntity entity);
-        Task<List<City>> GellAllCitiesAsync(int id);
-        Task<List<TEntity>> GetAllAsync();
         Task<TEntity> GetByIdAsync(int id);
+        Task<List<TEntity>> GetAllAsync();
+
+
         void Update(TEntity entity);
+        void Delete(TEntity entity);
     }
 }

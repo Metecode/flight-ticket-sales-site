@@ -15,7 +15,7 @@ namespace FlightTicketSalesSite.Data.Concrete
         {
 
         }
-        private AirplaneContext context
+        private AirplaneContext? context
         {
             get
             {
@@ -43,9 +43,8 @@ namespace FlightTicketSalesSite.Data.Concrete
                 .Trips
                 .Where(t => t.TripId == id)
                 .Include(t => t.Tickets)
-                .Include(t => t.Bus)
+                .Include(t => t.Airplane)
                 .FirstOrDefaultAsync();
-        }      .FirstOrDefaultAsync();
         }
 
         public int GetSeats(int id)

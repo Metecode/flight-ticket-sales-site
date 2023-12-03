@@ -100,7 +100,7 @@ namespace FlightTicketSalesSite.Controllers
 
         }
 
-
+        [HttpPost]
         public async Task<IActionResult> TicketReservation(TicketReservationModel ticketModel, int seatNumber, int id)
         {
             if (ModelState.IsValid)
@@ -119,8 +119,8 @@ namespace FlightTicketSalesSite.Controllers
 
 
                 Options options = new Options();
-                options.ApiKey = "sandbox-LgLNxwSY0mQwotXHDFiCKRlfyWRPv1KB";
-                options.SecretKey = "6KdwG1dLK1bD1Zxpb20WWXBs6OByjAb3";
+                options.ApiKey = "sandbox-QqmaQRzpdEJmqLbtVB4oWRpknarFy8nv";
+                options.SecretKey = "sandbox-LWVjxzHJNFfooDR6YJelsumk9if6ykBH";
                 options.BaseUrl = "https://sandbox-api.iyzipay.com";
 
                 CreatePaymentRequest request = new CreatePaymentRequest();

@@ -7,10 +7,8 @@ using System.Threading.Tasks;
 
 namespace FlightTicketSalesSite.Data.Abstract
 {
-    public interface IPassengerRepository
+    public interface IPassengerRepository : IRepository<Passenger>
     {
         Task CreateAsync(Passenger passenger, int seatNumber, int id);
-        Task CreateAsync(Passenger passenger);
-        Task<Passenger> GetByIdAsync(int id);
     }
 }
