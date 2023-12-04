@@ -8,10 +8,10 @@
         <div class="col-md-6">
             <div class="card shadow">
                 <div class="card-body ">
-                    <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 mt-3 text-center">Passenger Info</h3>
+                    <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 mt-3 text-center">@_localization.Getkey("Passenger Info").Value</h3>
                     <div class="form-group row mb-2">
                         <div class="col-md-3 fw-bold">
-                            <label asp-for="FirstName">First Name</label>
+                            <label asp-for="FirstName">@_localization.Getkey("First Name").Value</label>
                         </div>
                         <div class="col-md-9 ">
                             <input style="width:21rem" class="container-fluid " type="text" asp-for="FirstName" />
@@ -21,7 +21,7 @@
                     </div>
                     <div class="form-group row mb-2 ">
                         <div class="col-md-3 fw-bold">
-                            <label asp-for="LastName">Last Name </label>
+                            <label asp-for="LastName">@_localization.Getkey("Last Name").Value </label>
                         </div>
                         <div class="col-md-9">
                             <input style="width:21rem" class="container-fluid" type="text" asp-for="LastName" />
@@ -32,7 +32,7 @@
                     </div>
                     <div class="form-group row mb-2">
                         <div class="col-md-3 fw-bold">
-                            <label asp-for="Email">Email</label>
+                            <label asp-for="Email">@_localization.Getkey("Email").Value</label>
                         </div>
                         <div class="col-md-9">
                             <input style="width:21rem" class="container-fluid" type="email" asp-for="Email" />
@@ -43,7 +43,7 @@
                     </div>
                     <div class="form-group row mb-2 ">
                         <div class="col-md-3 fw-bold">
-                            <label asp-for="PhoneNumber">Phone Number</label>
+                            <label asp-for="PhoneNumber">@_localization.Getkey("Phone Number").Value</label>
                         </div>
                         <div class="col-md-9">
                             <input style="width:21rem" class="container-fluid" type="tel" asp-for="PhoneNumber" />
@@ -57,7 +57,7 @@
 
                     <div class="form-group row mb-4">
                         <div class="col-md-3 d-flex align-items-center">
-                            <label class="fw-bold">Seat Number</label>
+                            <label class="fw-bold">@_localization.Getkey("Seat Number").Value</label>
                         </div>
                         <div class="col-md-9">
                             <select style="width:21rem" class="form-select" name="seatNumber">
@@ -75,7 +75,7 @@
                     <h3 class="mb-3 pb-2 pb-md-0 mb-md-5 mt-5 text-center">Payment Info</h3>
                     <div class="form-group row mb-2">
                         <div class="col-md-3 fw-bold">
-                            <label class="form-label" asp-for="CardNumber">Card Number</label>
+                            <label class="form-label" asp-for="CardNumber">@_localization.Getkey("Card Number").Value</label>
 
                         </div>
                         <div class="col-md-9 ">
@@ -86,7 +86,7 @@
                     </div>
                     <div class="form-group row mb-2 ">
                         <div class="col-md-3 fw-bold">
-                            <label asp-for="ExpireMonth" class="form-label">Expiration Month</label>
+                            <label asp-for="ExpireMonth" class="form-label">@_localization.Getkey("Expiration Month").Value</label>
 
                         </div>
                         <div class="col-md-9">
@@ -97,7 +97,7 @@
                     </div>
                     <div class="form-group row mb-2">
                         <div class="col-md-3 fw-bold">
-                            <label class="form-label" asp-for="ExpireYear">Expiration Year</label>
+                            <label class="form-label" asp-for="ExpireYear">@_localization.Getkey("Expiration Year").Value</label>
 
                         </div>
                         <div class="col-md-9">
@@ -107,7 +107,7 @@
                     </div>
                     <div class="form-group row mb-2 ">
                         <div class="col-md-3 fw-bold">
-                            <label asp-for="Cvc" class="form-label">Cvc</label>
+                            <label asp-for="Cvc" class="form-label">@_localization.Getkey("Cvc").Value</label>
                         </div>
                         <div class="col-md-9">
                             <input type="text" class="form-control form-control-md" asp-for="Cvc" />
@@ -119,7 +119,7 @@
                     </div>
                     <div class="form-group row mb-2 ">
                         <div class="col-md-3 fw-bold">
-                            <label asp-for="CardHolderName" class="form-label">Card Holder Name</label>
+                            <label asp-for="CardHolderName" class="form-label">@_localization.Getkey("Card Holder Name").Value</label>
                         </div>
                         <div class="col-md-9">
                             <input type="text" class="form-control form-control-md" asp-for="CardHolderName" />
@@ -132,7 +132,7 @@
                     </div>
                     <div class="form-group row mb-2 ">
                         <div class="col-md-3 fw-bold">
-                            <label asp-for="IdentityNumber" class="form-label">Identity Number</label>
+                            <label asp-for="IdentityNumber" class="form-label">@_localization.Getkey("Identity Number").Value</label>
                         </div>
                         <div class="col-md-9">
                             <input type="text" class="form-control form-control-md" asp-for="IdentityNumber" />
@@ -145,7 +145,7 @@
                     </div>
                     <div class="form-group row mb-2 ">
                         <div class="col-md-3 fw-bold">
-                            <label asp-for="Price" class="form-label fw-bold">Price :</label>
+                            <label asp-for="Price" class="form-label fw-bold">@_localization.Getkey("Price").Value :</label>
                         </div>
                         <div class="col-md-9">
                             <label asp-for="Price">@Model.Price ₺</label>
@@ -156,7 +156,7 @@
                     <div class="form-group row mt-3 ms-5 ">
                         <div class="col-md-9 offset-3 ">
                             @*<a asp-controller="Home" asp-action="TicketReservation" asp-route-id="@Model.TripId" class="btn btn-continue" type="submit">Continue</a>*@
-                            <button class="btn btn-continue container-fluid " style="width:336px" type="submit">Continue  ></button>
+                            <button class="btn btn-continue container-fluid " style="width:336px" type="submit">@_localization.Getkey("Continue").Value  ></button>
                         </div>
 
                     </div>

@@ -117,10 +117,130 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="page.Home" xml:space="preserve">
-    <value>Anasayfa</value>
+  <data name="AirplaneList" xml:space="preserve">
+    <value>Uçak listesi</value>
+  </data>
+  <data name="Card Holder Name" xml:space="preserve">
+    <value>Kart Sahibi İsmi</value>
+  </data>
+  <data name="Card Number" xml:space="preserve">
+    <value>Kart Numarası</value>
+  </data>
+  <data name="Cities" xml:space="preserve">
+    <value>Şehirler</value>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>Devam et</value>
+  </data>
+  <data name="Cvc" xml:space="preserve">
+    <value>Cvc</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Tarih</value>
+  </data>
+  <data name="E-Mail" xml:space="preserve">
+    <value>E-Mail</value>
+  </data>
+  <data name="Expiration Month" xml:space="preserve">
+    <value>Son Kullanma Ayı</value>
+  </data>
+  <data name="Expiration Year" xml:space="preserve">
+    <value>Son Kullanma Yılı</value>
+  </data>
+  <data name="First Name" xml:space="preserve">
+    <value>Ad</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>Kalkış</value>
+  </data>
+  <data name="From Where" xml:space="preserve">
+    <value>Nereden</value>
+  </data>
+  <data name="Identity Number" xml:space="preserve">
+    <value>Kart Numarası</value>
+  </data>
+  <data name="Last Name" xml:space="preserve">
+    <value>Soyad</value>
+  </data>
+  <data name="Localization" xml:space="preserve">
+    <value>Yerelleştirme</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Giriş</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Çıkış Yap</value>
+  </data>
+  <data name="No found trips" xml:space="preserve">
+    <value>No trips found on the date you selected</value>
+  </data>
+  <data name="Passenger Info" xml:space="preserve">
+    <value>Yolcu Bilgisi</value>
+  </data>
+  <data name="Passenger Information" xml:space="preserve">
+    <value>Yolcu Bilgisi</value>
+  </data>
+  <data name="Phone Number" xml:space="preserve">
+    <value>Telefon Numarası</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>Fiyat</value>
+  </data>
+  <data name="Privacy" xml:space="preserve">
+    <value>Gizlilik</value>
+  </data>
+  <data name="privacy description" xml:space="preserve">
+    <value>Sitenizin gizlilik politikasını detaylandırmak için bu sayfayı kullanın</value>
+  </data>
+  <data name="Privacy Policy" xml:space="preserve">
+    <value>Güvenlik Politikası</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Kayıt Ol</value>
+  </data>
+  <data name="Remember Me" xml:space="preserve">
+    <value>Hatırla Beni</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>Roller</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Ara</value>
+  </data>
+  <data name="Search Trip" xml:space="preserve">
+    <value>Seyahat Ara</value>
+  </data>
+  <data name="Seat Number" xml:space="preserve">
+    <value>Koltuk Numarası</value>
+  </data>
+  <data name="Select Trip" xml:space="preserve">
+    <value>Seyahat Seç</value>
+  </data>
+  <data name="Ticket" xml:space="preserve">
+    <value>Bilet</value>
+  </data>
+  <data name="Tickets" xml:space="preserve">
+    <value>Biletler</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Süre</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>Varış</value>
+  </data>
+  <data name="To Where" xml:space="preserve">
+    <value>Nereye</value>
+  </data>
+  <data name="Trip Information" xml:space="preserve">
+    <value>Seyahat Bilgisi</value>
+  </data>
+  <data name="Trips" xml:space="preserve">
+    <value>Seyahatler</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Kullancılar</value>
   </data>
   <data name="Welcome" xml:space="preserve">
-    <value>Hakkımızda</value>
+    <value>Hoşgeldin</value>
   </data>
 </root>

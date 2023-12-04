@@ -1,7 +1,7 @@
 ﻿@* @model TicketDetailsModel *@
 
 <div class="display-6 text-dark ms-2 text-center">
-    Ticket
+	@_localization.Getkey("Ticket").Value
 </div>
 <hr>
 <div class="card shadow" style="background-color: #73d71e"/>
@@ -9,7 +9,7 @@
 	<div class="row justify-content-between ">
 		@*bilet basliği*@
 		<div class="col-md-7 ">
-			<h3>Ticket</h3>
+			<h3>@_localization.Getkey("Ticket").Value</h3>
 		</div>
 		<div class="col-md-5 text-end pe-5">
 			<img src="/images/logo1.png" height="50" />
@@ -23,7 +23,7 @@
 			<div class="row fw-bold text-center">Passenger Information</div>
 			<div class="row">
 				<div class="col-md-4 p-0 fw-bold ">
-					First Name
+					@_localization.Getkey("First Name").Value
 				</div>
 				<div class="col-md-5 p-0 ">
 					@*@Model.Passenger.FirstName*@
@@ -32,7 +32,7 @@
 			</div>
 			<div class="row ">
 				<div class="col-md-4 p-0 fw-bold ">
-					Last Name
+					@_localization.Getkey("Last Name").Value
 				</div>
 				<div class="col-md-5 p-0 ">
 					@*@Model.LastName*@
@@ -40,7 +40,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-4 p-0 fw-bold ">
-					E-Mail
+					@_localization.Getkey("E-Mail").Value
 				</div>
 				<div class="col-md-5  p-0 ">
 					@*@Model.Email*@
@@ -48,7 +48,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-4 p-0 fw-bold ">
-					Phone Number
+					@_localization.Getkey("Phone Number").Value
 				</div>
 				<div class="col-md-5 p-0">
 					@*@Model.PhoneNumber*@
@@ -63,7 +63,7 @@
 			<div class="row fw-bold text-center">Trip Information</div>
 			<div class="row">
 				<div class="col-md-3 p-0 fw-bold ">
-					From
+					@_localization.Getkey("From").Value
 				</div>
 				<div class="col-md-3 p-0 ">
 					@Model.FromWhere
@@ -71,7 +71,7 @@
 			</div>
 			<div class="row ">
 				<div class="col-md-3 p-0 fw-bold ">
-					To
+					@_localization.Getkey("To").Value
 				</div>
 				<div class="col-md-3 p-0 ">
 					@Model.ToWhere
@@ -79,7 +79,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-3 p-0 fw-bold ">
-					Date
+					@_localization.Getkey("Date").Value
 				</div>
 				<div class="col-md-3  p-0 ">
 					@*@Model.TripDate.ToString("d")*@
@@ -87,7 +87,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-3 p-0 fw-bold ">
-					Time
+					@_localization.Getkey("Time").Value
 				</div>
 				<div class="col-md-3 p-0">
 					@*@Model.TripTime*@
@@ -95,7 +95,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-3 p-0 fw-bold ">
-					Seat Number @Model.Ticket.SeatNo
+					@_localization.Getkey("Seat Number").Value @Model.Ticket.SeatNo
 				</div>
 				<div class="col-md-3 p-0">
 					@*@Model.SeatNo*@

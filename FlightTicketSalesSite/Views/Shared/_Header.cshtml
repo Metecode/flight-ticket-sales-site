@@ -1,4 +1,4 @@
-﻿<nav class="navbar-fixed-top navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3" style="background-color:#73d71e;">
+﻿<nav class="navbar-fixed-top navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3" style="background-color:#C80A11;">
     <div class="container logo">
         <a class="navbar-brand logo text-white " asp-area="" asp-controller="Home" asp-action="Index">
 
@@ -18,22 +18,22 @@
                     {
 
                         <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Admin" asp-action="AllTripList">Trips</a>
+                            <a class="nav-link text-white" asp-area="" asp-controller="Admin" asp-action="AllTripList">@_localization.Getkey("Trips").Value</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Admin" asp-action="CityList">Cities</a>
+                            <a class="nav-link text-white" asp-area="" asp-controller="Admin" asp-action="CityList">@_localization.Getkey("Cities").Value</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Admin" asp-action="AirplaneList">Airplanes</a>
+                            <a class="nav-link text-white" asp-area="" asp-controller="Admin" asp-action="AirplaneList">@_localization.Getkey("AirplaneList").Value</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Admin" asp-action="TicketList">Tickets</a>
+                            <a class="nav-link text-white" asp-area="" asp-controller="Admin" asp-action="TicketList">@_localization.Getkey("Tickets").Value</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Admin" asp-action="UserList">Users</a>
+                            <a class="nav-link text-white" asp-area="" asp-controller="Admin" asp-action="UserList">@_localization.Getkey("Users").Value</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Admin" asp-action="RoleList">Roles</a>
+                            <a class="nav-link text-white" asp-area="" asp-controller="Admin" asp-action="RoleList">@_localization.Getkey("Roles").Value</a>
                         </li>
                     }
 
@@ -43,10 +43,10 @@
                 @if (!User.Identity.IsAuthenticated)
                 {
                     <li class="nav-item">
-                        <a class="nav-link text-white" asp-area="" asp-controller="Account" asp-action="Login">Login</a>
+                        <a class="nav-link text-white" asp-area="" asp-controller="Account" asp-action="Login">@_localization.Getkey("Login").Value</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" asp-area="" asp-controller="Account" asp-action="Register">Register</a>
+                        <a class="nav-link text-white" asp-area="" asp-controller="Account" asp-action="Register">@_localization.Getkey("Register").Value</a>
                     </li>
                 }
                 else
@@ -55,16 +55,16 @@
                         <a class="nav-link text-white" asp-area="" asp-controller="Admin" asp-action="RoleList">@User.Identity.Name</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" asp-area="" asp-controller="Account" asp-action="Logout">Logout</a>
+                        <a class="nav-link text-white" asp-area="" asp-controller="Account" asp-action="Logout">@_localization.Getkey("Logout").Value</a>
                     </li>
                 }
             </ul>
-            <li>
+            <ul>
                 <div class="dropdown">
                     <button type="button"
                             class="btn btn-primary dropdown-toggle"
                             data-bs-toggle="dropdown">
-                        Localization
+                        @_localization.Getkey("Localization").Value
                     </button>
                     <ul class="dropdown-menu">
                         <li>
@@ -85,7 +85,8 @@
                         </li>
                     </ul>
                 </div>
-            </li>
+            </ul>
         </div>
+           
     </div>
 </nav>

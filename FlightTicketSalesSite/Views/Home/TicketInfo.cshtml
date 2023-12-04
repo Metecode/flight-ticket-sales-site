@@ -20,10 +20,10 @@
 	<div class="row justify-content-around m1">
 		<div class="col-md-5">
 			@*yolcu bilgi*@
-			<div class="row fw-bold text-center">Passenger Information</div>
+			<div class="row fw-bold text-center">@_localization.Getkey("Passenger Information").Value</div>
 			<div class="row">
 				<div class="col-md-4 p-0 fw-bold ">
-					<label>First Name</label>
+					<label>@_localization.Getkey("First Name").Value</label>
 				</div>
 				<div class="col-md-5 p-0 ">
 					<label> @Model.FirstName</label>
@@ -31,7 +31,7 @@
 			</div>
 			<div class="row ">
 				<div class="col-md-4 p-0 fw-bold ">
-					<label>Last Name</label>
+					<label>@_localization.Getkey("Last Name").Value</label>
 				</div>
 				<div class="col-md-5 p-0 ">
 					<label> @Model.LastName</label>
@@ -39,7 +39,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-4 p-0 fw-bold ">
-					<label>Email</label>
+					<label>@_localization.Getkey("Email").Value</label>
 				</div>
 				<div class="col-md-5  p-0 ">
 					<label>@Model.Email</label>
@@ -47,7 +47,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-4 p-0 fw-bold ">
-					<label>Phone Number</label>
+					<label>@_localization.Getkey("Phone Number").Value</label>
 				</div>
 				<div class="col-md-5 p-0">
 					<label>@Model.PhoneNumber</label>
@@ -59,10 +59,10 @@
 		@*bilet bilgi*@
 		<div class="col-md-5">
 			@*yolcu bilgi*@
-			<div class="row fw-bold text-center">Trip Information</div>
+			<div class="row fw-bold text-center">@_localization.Getkey("Trip Information").Value</div>
 			<div class="row">
 				<div class="col-md-3 p-0 fw-bold ">
-					<label>From</label>
+					<label>@_localization.Getkey("From").Value</label>
 				</div>
 				<div class="col-md-3 p-0 ">
 					<label>@Model.FromWhere.CityName</label>
@@ -70,7 +70,7 @@
 			</div>
 			<div class="row ">
 				<div class="col-md-3 p-0 fw-bold ">
-					<label>To</label>
+					<label>@_localization.Getkey("To").Value</label>
 				</div>
 				<div class="col-md-3 p-0 ">
 					<label> @Model.ToWhere.CityName</label>
@@ -78,7 +78,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-3 p-0 fw-bold ">
-					<label>Date</label>
+					<label>@_localization.Getkey("Date").Value</label>
 				</div>
 				<div class="col-md-3  p-0 ">
 					<label> @Model.TripDate.ToString("d")</label>
@@ -86,7 +86,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-3 p-0 fw-bold ">
-					<label>Time</label>
+					<label>@_localization.Getkey("Time").Value</label>
 				</div>
 				<div class="col-md-3 p-0">
 					<label> @Model.TripTime.ToString("t")</label>
@@ -94,7 +94,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-3 p-0 fw-bold ">
-					<label>Seat Number</label>
+					<label>@_localization.Getkey("Seat Number").Value</label>
 				</div>
 				<div class="col-md-3 p-0">
 					<label>  @Model.SeatNo</label>
