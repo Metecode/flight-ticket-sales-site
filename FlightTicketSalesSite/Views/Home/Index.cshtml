@@ -2,53 +2,45 @@
 
 <form asp-controller="Home" asp-action="TripList">
 
-    <div class="row justify-context-between align-items-center" style="margin-bottom:100px">
+    <div class="row justify-content-between align-items-center" style="margin-bottom: 100px;">
         <div class="col-sm-6">
-            <div class="card shadow " style="width: 30rem; border-radius:13px;padding:15px;">
-                <div class="card-body opacity-75  " style="background-color:#FFFF;border-radius:13px;">
+            <div class="card shadow" style="width: 30rem; border-radius: 13px; padding: 20px; background-color: #f8f9fa;">
+                <div class="card-body opacity-75" style="border-radius: 13px;">
                     <h5 class="card-title text-dark fw-bold text-center">@_localization.Getkey("Search Trip").Value</h5>
-                    <div class="row">
-                        <select class="form-select " asp-for="FromWhereId">
-                            <option selected>@_localization.Getkey("From Where").Value </option>
-
-                            @foreach (var city in Model.Cities)
-                            {
-                                <option value="@city.CityId">@city.CityName </option>
-
-                            }
-                        </select>
-                        <span asp-validation-for="FromWhereId" class="text-danger ms-1"></span>
-
+                    <div class="row mb-3">
+                        <div class="col">
+                            <select class="form-select" asp-for="FromWhereId">
+                                <option selected disabled hidden>@_localization.Getkey("From Where").Value </option>
+                                @foreach (var city in Model.Cities)
+                                {
+                                    <option value="@city.CityId">@city.CityName </option>
+                                }
+                            </select>
+                            <span asp-validation-for="FromWhereId" class="text-danger ms-1"></span>
+                        </div>
+                        <div class="col">
+                            <select class="form-select" asp-for="ToWhereId">
+                                <option selected disabled hidden>@_localization.Getkey("To Where").Value </option>
+                                @foreach (var city in Model.Cities)
+                                {
+                                    <option value="@city.CityId"> @city.CityName </option>
+                                }
+                            </select>
+                            <span asp-validation-for="ToWhereId" class="text-danger ms-1"></span>
+                        </div>
                     </div>
-                    <div class="row">
-                        <select class="form-select mt-2" asp-for="ToWhereId">
-                            <option selected>@_localization.Getkey("To Where").Value </option>
-
-                            @foreach (var city in Model.Cities)
-                            {
-                                <option value="@city.CityId"> @city.CityName </option>
-
-
-                            }
-
-                        </select>
-                        <span asp-validation-for="ToWhereId" class="text-danger ms-1"></span>
-
+                    <div class="row mb-3">
+                        <div class="col">
+                            <input asp-for="TripDate" class="form-control" type="date" value="@Model.TripDate" />
+                            <span asp-validation-for="TripDate" class="text-danger ms-1"></span>
+                        </div>
                     </div>
-                    <div class="row">
-
-                        <input asp-for="TripDate" class="form-control mt-2 " type="date" value=@Model.TripDate />
-                        <span asp-validation-for="TripDate" class="text-danger ms-1"></span>
-
-                    </div>
-
-                    <button class="btn btn-sx btn-continue fw-bold container-fluid mt-2" style="background-color:#ffad00" type="submit"> @_localization.Getkey("Search").Value</button>
-
+                    <button class="btn btn-continue fw-bold container-fluid mt-2" style="background-color:#ffad00" type="submit"> @_localization.Getkey("Search").Value</button>
                 </div>
             </div>     
         </div>
-        <div class="col-sm-6 ">
-            <img src="/images/logo.jpeg" width="300" style="border-radius:10px" />
+        <div class="col-sm-6">
+            <img src="/images/logo.jpeg" width="300" style="border-radius: 10px;" />
         </div>
     </div>
 </form>
