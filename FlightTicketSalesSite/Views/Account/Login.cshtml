@@ -7,7 +7,7 @@
 		<div class="col-md-12">
 			<div class="form-group row mb-2">
 				<div class="col-md-2">
-					<label asp-for="Email"></label>
+					<label asp-for="Email">@_localization.Getkey("Email").Value</label>
 				</div>
 				<div class="col-md-10">
 					<input type="text" asp-for="Email" />
@@ -16,7 +16,7 @@
 			</div>
 			<div class="form-group row mb-2">
 				<div class="col-md-2">
-					<label asp-for="Password"></label>
+					<label asp-for="Password">@_localization.Getkey("Password").Value</label>
 				</div>
 				<div class="col-md-10">
 					<input asp-for="Password" />

@@ -132,6 +132,9 @@
   <data name="Continue" xml:space="preserve">
     <value>Devam et</value>
   </data>
+  <data name="Create New Airplane" xml:space="preserve">
+    <value>Yeni Uçak Ekle</value>
+  </data>
   <data name="Cvc" xml:space="preserve">
     <value>Cvc</value>
   </data>
@@ -204,6 +207,9 @@
   <data name="Roles" xml:space="preserve">
     <value>Roller</value>
   </data>
+  <data name="Save Changes" xml:space="preserve">
+    <value>Değişiklikleri  kaydet</value>
+  </data>
   <data name="Search" xml:space="preserve">
     <value>Ara</value>
   </data>
@@ -213,8 +219,14 @@
   <data name="Seat Number" xml:space="preserve">
     <value>Koltuk Numarası</value>
   </data>
+  <data name="SeatCapacity" xml:space="preserve">
+    <value>Yolcu Kapasitesi</value>
+  </data>
   <data name="Select Trip" xml:space="preserve">
     <value>Seyahat Seç</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
   </data>
   <data name="Ticket" xml:space="preserve">
     <value>Bilet</value>
@@ -237,8 +249,14 @@
   <data name="Trips" xml:space="preserve">
     <value>Seyahatler</value>
   </data>
+  <data name="UserName" xml:space="preserve">
+    <value>Kullanıcı Adı</value>
+  </data>
   <data name="Users" xml:space="preserve">
     <value>Kullancılar</value>
+  </data>
+  <data name="Warning!" xml:space="preserve">
+    <value>Uyarı!</value>
   </data>
   <data name="Welcome" xml:space="preserve">
     <value>Hoşgeldin</value>

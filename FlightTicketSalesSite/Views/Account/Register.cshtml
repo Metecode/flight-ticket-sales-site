@@ -6,7 +6,7 @@
         <div class="col-md-12">
             <div class="form-group row mb-2">
                 <div class="col-md-2">
-                    <label asp-for="FirstName">FirstName</label>
+                    <label asp-for="FirstName">@_localization.Getkey("First Name").Value</label>
                 </div>
                 <div class="col-md-10">
                     <input type="text" asp-for="FirstName" />
@@ -15,7 +15,7 @@
             </div>
             <div class="form-group row mb-2">
                 <div class="col-md-2">
-                    <label asp-for="LastName"></label>
+                    <label asp-for="LastName">@_localization.Getkey("Last Name").Value</label>
                 </div>
                 <div class="col-md-10">
                     <input type="text" asp-for="LastName" />
@@ -24,7 +24,7 @@
             </div>
             <div class="form-group row mb-2">
                 <div class="col-md-2">
-                    <label asp-for="UserName"></label>
+                    <label asp-for="UserName">@_localization.Getkey("UserName").Value</label>
                 </div>
                 <div class="col-md-10">
                     <input type="text" asp-for="UserName" />
@@ -33,7 +33,7 @@
             </div>
             <div class="form-group row mb-2">
                 <div class="col-md-2">
-                    <label asp-for="Email"></label>
+                    <label asp-for="Email">@_localization.Getkey("Email").Value</label>
                 </div>
                 <div class="col-md-10">
                     <input asp-for="Email" />
@@ -42,7 +42,7 @@
             </div>
             <div class="form-group row mb-2">
                 <div class="col-md-2">
-                    <label asp-for="Password"></label>
+                    <label asp-for="Password">@_localization.Getkey("Password").Value</label>
                 </div>
                 <div class="col-md-10">
                     <input asp-for="Password" />
@@ -51,7 +51,7 @@
             </div>
             <div class="form-group row mb-2">
                 <div class="col-md-2">
-                    <label asp-for="RePassword"></label>
+                    <label asp-for="RePassword">@_localization.Getkey("RePassword").Value</label>
                 </div>
                 <div class="col-md-10">
                     <input asp-for="RePassword" />
@@ -60,7 +60,7 @@
             </div>
             <div class="form-group row mb-2">
                 <div class="col-md-10 offset-2">
-                    <button class="btn btn-continue" style="width:211px" type="submit">Register</button>
+                    <button class="btn btn-continue" style="width:211px" type="submit">@_localization.Getkey("Register").Value</button>
                 </div>
 
             </div>
