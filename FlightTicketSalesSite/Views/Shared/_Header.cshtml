@@ -60,31 +60,30 @@
                 }
             </ul>
             <ul>
-                <div class="dropdown">
+                <div class="btn-group">
                     <button type="button"
                             class="btn btn-primary dropdown-toggle"
-                            data-bs-toggle="dropdown">
-                        @_localization.Getkey("Localization").Value
+                            data-bs-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false">
+                        <i class="flag-icon flag-icon-gb"></i> English
                     </button>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <a asp-controller="Home"
-                               asp-action="ChangeLanguage"
-                               asp-route-culture="en-US"
-                               class="dropdown-item">
-                                <i class="flag-icon flag-icon-gb"></i> English
-                            </a>
-                        </li>
-                        <li>
-                            <a asp-controller="Home"
-                               asp-action="ChangeLanguage"
-                               asp-route-culture="tr-TR"
-                               class="dropdown-item">
-                                <i class="flag-icon flag-icon-gb"></i> Türkçe
-                            </a>
-                        </li>
-                    </ul>
+                    <div class="dropdown-menu">
+                        <a asp-controller="Home"
+                           asp-action="ChangeLanguage"
+                           asp-route-culture="en-US"
+                           class="dropdown-item">
+                            <i class="flag-icon flag-icon-gb"></i> English
+                        </a>
+                        <a asp-controller="Home"
+                           asp-action="ChangeLanguage"
+                           asp-route-culture="tr-TR"
+                           class="dropdown-item">
+                            <i class="flag-icon flag-icon-tr"></i> Türkçe
+                        </a>
+                    </div>
                 </div>
+
             </ul>
         </div>
            
