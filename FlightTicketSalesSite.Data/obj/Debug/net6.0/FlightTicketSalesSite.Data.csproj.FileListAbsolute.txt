@@ -15,3 +15,20 @@ C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite.Data\obj\
 C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite.Data\obj\Debug\net6.0\ref\FlightTicketSalesSite.Data.dll
 C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite.Data\bin\Debug\net6.0\FlightTicketSalesSite.Data.runtimeconfig.json
 C:\Users\Mete\source\repos\FlightTicketSalesSite\FlightTicketSalesSite.Data\obj\Debug\net6.0\FlightTicketSalesSite.Data.genruntimeconfig.cache
+C:\Users\Metehan Dündar\Documents\Project\flight-ticket-sales-site\FlightTicketSalesSite.Data\bin\Debug\net6.0\FlightTicketSalesSite.Data.deps.json
+C:\Users\Metehan Dündar\Documents\Project\flight-ticket-sales-site\FlightTicketSalesSite.Data\bin\Debug\net6.0\FlightTicketSalesSite.Data.runtimeconfig.json
+C:\Users\Metehan Dündar\Documents\Project\flight-ticket-sales-site\FlightTicketSalesSite.Data\bin\Debug\net6.0\FlightTicketSalesSite.Data.dll
+C:\Users\Metehan Dündar\Documents\Project\flight-ticket-sales-site\FlightTicketSalesSite.Data\bin\Debug\net6.0\FlightTicketSalesSite.Data.pdb
+C:\Users\Metehan Dündar\Documents\Project\flight-ticket-sales-site\FlightTicketSalesSite.Data\bin\Debug\net6.0\FlightTicketSalesSite.Entity.dll
+C:\Users\Metehan Dündar\Documents\Project\flight-ticket-sales-site\FlightTicketSalesSite.Data\bin\Debug\net6.0\FlightTicketSalesSite.Entity.pdb
+C:\Users\Metehan Dündar\Documents\Project\flight-ticket-sales-site\FlightTicketSalesSite.Data\obj\Debug\net6.0\FlightTicketSalesSite.Data.csproj.AssemblyReference.cache
+C:\Users\Metehan Dündar\Documents\Project\flight-ticket-sales-site\FlightTicketSalesSite.Data\obj\Debug\net6.0\FlightTicketSalesSite.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Metehan Dündar\Documents\Project\flight-ticket-sales-site\FlightTicketSalesSite.Data\obj\Debug\net6.0\FlightTicketSalesSite.Data.AssemblyInfoInputs.cache
+C:\Users\Metehan Dündar\Documents\Project\flight-ticket-sales-site\FlightTicketSalesSite.Data\obj\Debug\net6.0\FlightTicketSalesSite.Data.AssemblyInfo.cs
+C:\Users\Metehan Dündar\Documents\Project\flight-ticket-sales-site\FlightTicketSalesSite.Data\obj\Debug\net6.0\FlightTicketSalesSite.Data.csproj.CoreCompileInputs.cache
+C:\Users\Metehan Dündar\Documents\Project\flight-ticket-sales-site\FlightTicketSalesSite.Data\obj\Debug\net6.0\FlightTicketSalesSite.Data.csproj.CopyComplete
+C:\Users\Metehan Dündar\Documents\Project\flight-ticket-sales-site\FlightTicketSalesSite.Data\obj\Debug\net6.0\FlightTicketSalesSite.Data.dll
+C:\Users\Metehan Dündar\Documents\Project\flight-ticket-sales-site\FlightTicketSalesSite.Data\obj\Debug\net6.0\refint\FlightTicketSalesSite.Data.dll
+C:\Users\Metehan Dündar\Documents\Project\flight-ticket-sales-site\FlightTicketSalesSite.Data\obj\Debug\net6.0\FlightTicketSalesSite.Data.pdb
+C:\Users\Metehan Dündar\Documents\Project\flight-ticket-sales-site\FlightTicketSalesSite.Data\obj\Debug\net6.0\FlightTicketSalesSite.Data.genruntimeconfig.cache
+C:\Users\Metehan Dündar\Documents\Project\flight-ticket-sales-site\FlightTicketSalesSite.Data\obj\Debug\net6.0\ref\FlightTicketSalesSite.Data.dll
