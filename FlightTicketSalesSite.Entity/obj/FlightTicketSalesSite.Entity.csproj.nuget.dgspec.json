@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mete\\source\\repos\\FlightTicketSalesSite\\FlightTicketSalesSite.Entity\\FlightTicketSalesSite.Entity.csproj": {}
+    "C:\\Users\\Metehan Dündar\\Documents\\Project\\flight-ticket-sales-site\\FlightTicketSalesSite.Entity\\FlightTicketSalesSite.Entity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mete\\source\\repos\\FlightTicketSalesSite\\FlightTicketSalesSite.Entity\\FlightTicketSalesSite.Entity.csproj": {
+    "C:\\Users\\Metehan Dündar\\Documents\\Project\\flight-ticket-sales-site\\FlightTicketSalesSite.Entity\\FlightTicketSalesSite.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mete\\source\\repos\\FlightTicketSalesSite\\FlightTicketSalesSite.Entity\\FlightTicketSalesSite.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\Metehan Dündar\\Documents\\Project\\flight-ticket-sales-site\\FlightTicketSalesSite.Entity\\FlightTicketSalesSite.Entity.csproj",
         "projectName": "FlightTicketSalesSite.Entity",
-        "projectPath": "C:\\Users\\Mete\\source\\repos\\FlightTicketSalesSite\\FlightTicketSalesSite.Entity\\FlightTicketSalesSite.Entity.csproj",
-        "packagesPath": "C:\\Users\\Mete\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mete\\source\\repos\\FlightTicketSalesSite\\FlightTicketSalesSite.Entity\\obj\\",
+        "projectPath": "C:\\Users\\Metehan Dündar\\Documents\\Project\\flight-ticket-sales-site\\FlightTicketSalesSite.Entity\\FlightTicketSalesSite.Entity.csproj",
+        "packagesPath": "C:\\Users\\Metehan Dündar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Metehan Dündar\\Documents\\Project\\flight-ticket-sales-site\\FlightTicketSalesSite.Entity\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Mete\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Metehan Dündar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -59,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

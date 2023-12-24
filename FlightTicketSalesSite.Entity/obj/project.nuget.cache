@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iV7FXhFkVOuZGa3nZSZZR0yQHMmuO/HZ8l6ic9TegYI09gLL5LDaNb2ni0actdhbCOPu+VofoRA/UzDAyvpWEg==",
+  "dgSpecHash": "ye/9k/XV2KqzT2wtD+DPwDCwgGnhq6hrDA6wOnbUmkJqDX+DoQXVi/SYjsKkybs6wKA9FY/Tw4W1xG+62+yDYQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mete\\source\\repos\\FlightTicketSalesSite\\FlightTicketSalesSite.Entity\\FlightTicketSalesSite.Entity.csproj",
+  "projectFilePath": "C:\\Users\\Metehan Dündar\\Documents\\Project\\flight-ticket-sales-site\\FlightTicketSalesSite.Entity\\FlightTicketSalesSite.Entity.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
