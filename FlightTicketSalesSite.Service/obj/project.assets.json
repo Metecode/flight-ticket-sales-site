@@ -1237,24 +1237,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mete\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Metehan Dündar\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mete\\source\\repos\\FlightTicketSalesSite\\FlightTicketSalesSite.Service\\FlightTicketSalesSite.Service.csproj",
+      "projectUniqueName": "C:\\Users\\Metehan Dündar\\Documents\\Project\\flight-ticket-sales-site\\FlightTicketSalesSite.Service\\FlightTicketSalesSite.Service.csproj",
       "projectName": "FlightTicketSalesSite.Service",
-      "projectPath": "C:\\Users\\Mete\\source\\repos\\FlightTicketSalesSite\\FlightTicketSalesSite.Service\\FlightTicketSalesSite.Service.csproj",
-      "packagesPath": "C:\\Users\\Mete\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mete\\source\\repos\\FlightTicketSalesSite\\FlightTicketSalesSite.Service\\obj\\",
+      "projectPath": "C:\\Users\\Metehan Dündar\\Documents\\Project\\flight-ticket-sales-site\\FlightTicketSalesSite.Service\\FlightTicketSalesSite.Service.csproj",
+      "packagesPath": "C:\\Users\\Metehan Dündar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Metehan Dündar\\Documents\\Project\\flight-ticket-sales-site\\FlightTicketSalesSite.Service\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Mete\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Metehan Dündar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1268,11 +1263,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Mete\\source\\repos\\FlightTicketSalesSite\\FlightTicketSalesSite.Data\\FlightTicketSalesSite.Data.csproj": {
-              "projectPath": "C:\\Users\\Mete\\source\\repos\\FlightTicketSalesSite\\FlightTicketSalesSite.Data\\FlightTicketSalesSite.Data.csproj"
+            "C:\\Users\\Metehan Dündar\\Documents\\Project\\flight-ticket-sales-site\\FlightTicketSalesSite.Data\\FlightTicketSalesSite.Data.csproj": {
+              "projectPath": "C:\\Users\\Metehan Dündar\\Documents\\Project\\flight-ticket-sales-site\\FlightTicketSalesSite.Data\\FlightTicketSalesSite.Data.csproj"
             },
-            "C:\\Users\\Mete\\source\\repos\\FlightTicketSalesSite\\FlightTicketSalesSite.Entity\\FlightTicketSalesSite.Entity.csproj": {
-              "projectPath": "C:\\Users\\Mete\\source\\repos\\FlightTicketSalesSite\\FlightTicketSalesSite.Entity\\FlightTicketSalesSite.Entity.csproj"
+            "C:\\Users\\Metehan Dündar\\Documents\\Project\\flight-ticket-sales-site\\FlightTicketSalesSite.Entity\\FlightTicketSalesSite.Entity.csproj": {
+              "projectPath": "C:\\Users\\Metehan Dündar\\Documents\\Project\\flight-ticket-sales-site\\FlightTicketSalesSite.Entity\\FlightTicketSalesSite.Entity.csproj"
             }
           }
         }
@@ -1302,7 +1297,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

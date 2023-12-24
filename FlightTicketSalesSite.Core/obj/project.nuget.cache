@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "+uaKshlCJqMS1ytRNN7KRUzJ+dYzxCnIzTNAGirMx90hDKZOs5gRB9oa550hsz3kLJVDKLuynQnfG85LDyg2gQ==",
+  "dgSpecHash": "DUPu/ch216lo4iyuxeEP9VdPrWyLRhjzkbhct/V8bctAqcNaRl85ck9D0yPlwY+y2MO9/Ukux4VWVX8qF2lF2w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mete\\source\\repos\\FlightTicketSalesSite\\FlightTicketSalesSite.Core\\FlightTicketSalesSite.Core.csproj",
+  "projectFilePath": "C:\\Users\\Metehan Dündar\\Documents\\Project\\flight-ticket-sales-site\\FlightTicketSalesSite.Core\\FlightTicketSalesSite.Core.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Mete\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+    "C:\\Users\\Metehan Dündar\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
   ],
   "logs": []
 }
