@@ -5,6 +5,6 @@
     "\\FlightTicketSalesSite\\Views",
     "\\FlightTicketSalesSite\\Views\\Home"
   ],
-  "SelectedNode": "\\FlightTicketSalesSite\\Views\\Home\\TicketInfo.cshtml",
+  "SelectedNode": "\\FlightTicketSalesSite\\Views\\_ViewImports.cshtml",
   "PreviewInSolutionExplorer": false
 }
