@@ -153,6 +153,9 @@
   <data name="First Name" xml:space="preserve">
     <value>First Name</value>
   </data>
+  <data name="Forgot Password" xml:space="preserve">
+    <value>Forgot Password</value>
+  </data>
   <data name="From" xml:space="preserve">
     <value>From</value>
   </data>

@@ -153,6 +153,9 @@
   <data name="First Name" xml:space="preserve">
     <value>Ad</value>
   </data>
+  <data name="Forgot Password" xml:space="preserve">
+    <value>Şifremi Unuttum</value>
+  </data>
   <data name="From" xml:space="preserve">
     <value>Kalkış</value>
   </data>

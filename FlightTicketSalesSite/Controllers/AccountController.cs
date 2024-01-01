@@ -48,7 +48,8 @@ namespace FlightTicketSalesSite.Controllers
             ViewBag.ReturnUrl = ReturnUrl;
             return View();
         }
-        [HttpPost]
+
+		[HttpPost]
         public async Task<IActionResult> Login(LoginModel loginModel)
         {
             if (ModelState.IsValid)
@@ -82,5 +83,15 @@ namespace FlightTicketSalesSite.Controllers
             await _signInManager.SignOutAsync();
             return Redirect("~/");
         }
-    }
+
+		public IActionResult ForgotPassword()
+		{
+			return View();
+		}
+
+		public async Task<IActionResult> ForgotPassword1(string email)
+		{
+			return View();
+		}
+	}
 }
